@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Cor de fundo do céu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+}
+
+canvas {
+    display: block;
+    background-color: #A9DFBF; /* Cor de fundo das plataformas */
+    position: absolute;
+}
